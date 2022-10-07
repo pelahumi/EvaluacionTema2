@@ -1,4 +1,4 @@
-from Clases.Ejercicio2 import *
+from Alumno.Clases.Ejercicio2 import *
 
 def ejecutar():
     while True:
