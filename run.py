@@ -13,7 +13,7 @@ if __name__ == "__main__":
         print("[5] Cerrar el Manager ")
         print("========================")
 
-        opcion = input("> ")
+        opcion = int(input("> "))
 
         if opcion == 1:
             ejecutar()
