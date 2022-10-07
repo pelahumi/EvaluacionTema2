@@ -1,5 +1,6 @@
 from Alumno.ejecutarej1 import ejecutar1
 from Producto.ejecutarej3 import ejecutar2
+from Coche.ejecutarej5 import ejecutar3
 
 if __name__ == "__main__":
     
@@ -26,6 +27,10 @@ if __name__ == "__main__":
 
         if opcion == 3:
             print("No me dio tiempo a hacer el ejercicio 4.")
+        
+        if opcion == 4:
+            ejecutar3()
+            break
 
         if opcion == 5:
             print("Cerrando el programa...")
