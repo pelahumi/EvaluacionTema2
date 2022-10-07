@@ -1,4 +1,5 @@
-from Alumno.ejecutarej1 import ejecutar
+from Alumno.ejecutarej1 import ejecutar1
+from Producto.ejecutarej3 import ejecutar2
 
 if __name__ == "__main__":
     
@@ -16,9 +17,13 @@ if __name__ == "__main__":
         opcion = int(input("> "))
 
         if opcion == 1:
-            ejecutar()
+            ejecutar1()
             break
             
+        if opcion == 2:
+            ejecutar2()
+            break
+
         if opcion == 5:
             print("Cerrando el programa...")
             break
