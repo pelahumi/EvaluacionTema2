@@ -32,8 +32,9 @@ En este ejercicio añadimos a la clase str que muestra los datos de cada alumno.
     #Creamos el método str
     def __str__(self):
         return f"{self.nombre}: {self.nota}"
-        
-        
+```        
+    
+    
 ---
 
 La clase quedaría de esta forma:
