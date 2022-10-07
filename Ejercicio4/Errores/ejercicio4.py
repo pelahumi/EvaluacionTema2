@@ -1,2 +1,2 @@
-def errores():
+def error():
     
