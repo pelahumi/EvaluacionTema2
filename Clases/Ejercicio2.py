@@ -9,7 +9,7 @@ class Alumno():
     
     #Creamos el método str
     def __str__(self):
-        return 
+        return f"{self.nombre}: {self.nota}"
     
     #Creamos el método de calificación
     def calificacion(nota):
@@ -21,3 +21,8 @@ class Alumno():
         else:
             print("La nota introducida no está dentro de los parámetros")
             
+alumno1 = Alumno("Antonio", 4)
+alumno2 = Alumno("Pablo", 9)
+
+print(alumno1.__str__())
+print(alumno2.__str__())
