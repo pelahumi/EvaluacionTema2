@@ -1,6 +1,6 @@
 import Alumno.Clases.Ejercicio2
 
-def ejecutar():
+def ejecutar1():
     while True:
 
         print("========================") 

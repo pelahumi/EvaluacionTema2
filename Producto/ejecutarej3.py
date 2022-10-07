@@ -1,6 +1,6 @@
 import Producto.Clases.Ejercicio3
 
-def ejecutar():
+def ejecutar2():
     while True:
 
         print("========================") 
