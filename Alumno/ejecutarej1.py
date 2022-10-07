@@ -1,4 +1,4 @@
-from Alumno.Clases.Ejercicio2 import *
+import Alumno.Clases.Ejercicio2
 
 def ejecutar():
     while True:
@@ -20,7 +20,7 @@ def ejecutar():
             nombre = str(input("Introduce el nombre del alumno: "))
             nota = int(input("Introduce la nota del alumno: "))
 
-            alumno = Alumno(nombre, nota)
+            alumno = Alumno.Clases(nombre, nota)
             
             print("Veamos si el alumno ha aprovado: ", "\n")
 
