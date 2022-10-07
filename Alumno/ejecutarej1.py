@@ -4,11 +4,11 @@ def ejecutar():
     while True:
 
         print("========================") 
-        print(" BIENVENIDO AL Manager ") 
+        print(" BIENVENIDO A Los ejercicios 1 y 2 ") 
         print("========================") 
         print("[1] Ejercicio 1 ") 
         print("[2] Ejercicio 2 ") 
-        print("[6] Cerrar el Manager ")
+        print("[3] Cerrar el Manager ")
         print("========================")
 
         opcion = input("> ")
