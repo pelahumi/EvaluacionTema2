@@ -24,6 +24,9 @@ if __name__ == "__main__":
             ejecutar2()
             break
 
+        if opcion == 3:
+            print("No me dio tiempo a hacer el ejercicio 4.")
+
         if opcion == 5:
             print("Cerrando el programa...")
             break
