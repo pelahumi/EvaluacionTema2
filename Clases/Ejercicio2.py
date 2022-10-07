@@ -7,6 +7,10 @@ class Alumno():
         self.nota = nota
         print("El alumno se ha creado con éxito.")
     
+    #Creamos el método str
+    def __str__(self):
+        return 
+    
     #Creamos el método de calificación
     def calificacion(nota):
         nota = int(input("Introduce una nota del 0 al 10"))
