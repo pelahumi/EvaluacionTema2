@@ -8,4 +8,4 @@ def ejecutar3():
     cilindrada = input("Introduce la cilindrada: ")
 
     coche = Coche(color, ruedas, velocidad, cilindrada)
-    coche.__str__()
+    print(coche.__str__())
